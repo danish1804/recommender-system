@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+env/
+venv/
+.env
+*.env
+*.csv
+*.json
+*.pkl
+*.h5
+*.joblib
+.DS_Store
+.vscode/
+.idea/
