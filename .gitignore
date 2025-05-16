@@ -1,15 +1,63 @@
+# =====================
+# Python Artifacts
+# =====================
 __pycache__/
 *.py[cod]
+*$py.class
+
+# ============================
+# Jupyter Notebook Artifacts
+# ============================
 .ipynb_checkpoints/
-env/
-venv/
+
+# ============================
+# Environment Files
+# ============================
 .env
 *.env
+.env.*
+
+# ============================
+# Virtual Environments
+# ============================
+env/
+venv/
+.venv/
+.conda/
+.egg-info/
+Pipfile.lock
+
+# ============================
+# Data Files
+# ============================
+data/
 *.csv
+*.tsv
 *.json
 *.pkl
 *.h5
 *.joblib
-.DS_Store
+
+# ============================
+# IDE & Editor Configs
+# ============================
 .vscode/
 .idea/
+
+# ============================
+# System Files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Logs and Outputs
+# ============================
+*.log
+*.out
+
+# ============================
+# Model Checkpoints (Optional)
+# ============================
+checkpoints/
+models/
